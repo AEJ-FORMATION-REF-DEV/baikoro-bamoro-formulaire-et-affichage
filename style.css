@@ -1,0 +1,70 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0px;
+     padding: 0px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 16px;
+    color: aliceblue;
+    background-color:rgb(61, 60, 60);
+    }
+
+.formulaire{
+width: 360px;
+height: 450px;
+background-color: rgb(27, 27, 27);
+border:none;
+position: relative;
+margin: auto;
+top: 80px;
+left: 0px;
+right:0px;
+padding: 35px;
+border-radius: 15px;
+border-top: solid 6px chocolate;
+border-bottom: solid 6px chocolate ;
+box-shadow: 0 0 10px cornsilk;
+}
+
+.texte-formulaire{
+font-size: 32px;
+font-weight: bold;
+color:chocolate ;
+text-align: center;
+padding-bottom: 18px;
+
+}
+.zonedetexe span{
+font-weight: bold;
+
+
+}
+
+.zonedetexe input {
+
+width: 100%;
+font-size: 14px;
+outline: none;
+background-color: black;
+color: blanchedalmond;
+margin: 3px 0;
+padding: 4px;
+border: blanchedalmond solid 1px;
+border-radius: 8px;
+}
+
+.zonedetexe input[type="submit"].bouton{
+
+    background-color: chocolate;
+    margin: 209x;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
